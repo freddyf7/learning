@@ -98,3 +98,16 @@ const x = JSON.parse('"hello"');
 ```
 
 The var continues to hold whatever valued was return by JSON.parser(), the actual error happens when you try to use the string as a number.
+
+### Shorthand assignment
+
+When the property name and the variable name are the same, you can assign the value directly, omitting the colon and value.
+
+```typescript
+interface IMyInterface {
+    var propA: String
+}
+
+var propA = "valueA"
+var myObject: IMyInterface = { propA }
+```
