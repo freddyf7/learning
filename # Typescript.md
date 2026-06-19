@@ -115,5 +115,4 @@ const myObject: IMyInterface = { propA };
 
 // is equivalent to this
 const myObject: IMyInterface = { propA: propA };
-
 ```
